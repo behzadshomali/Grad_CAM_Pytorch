@@ -25,9 +25,9 @@ Using VGG-19, we store the gradient of the target predicted class score w.r.t th
 
 As a test, I fed the picture of my dog to the model and checked the results. Firstly, VGG-19 correctly classified my dog the class 208:Labrador retriever. Furthermore, by inspecting the following results, we can see that the model's main focus has been on the dog's face and paws which resulted in predicting the correct class!
 
-Grad-CAM per each feature map | Grad-CAM per average of all feature maps
+Grad-CAM per each feature map | Grad-CAM for average of all feature maps
 :---: | :---:
-<img src="./figures/grad_cam_per_each_feature_map.gif"> | <img src="./figures/grad_cam_per_average_all_feature_maps.png" width=87%>
+<img src="./figures/grad_cam_per_each_feature_map.gif"> | <img src="./figures/grad_cam_per_average_all_feature_maps.png" width=79%>
 
 ## How to run it?
 1. Clone and go to the repository:
